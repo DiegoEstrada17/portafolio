@@ -2,24 +2,25 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width device-width">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" sizes="200x200" type="image/png" href="imagenes/Frame 6.png">
     <title>Encriptado de Texto</title>
-    <link rel="shortcut icon" href="favicon.ico" type="imagenes/Logo@2x">
+    <link rel="stylesheet" href="reset.css"/>
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
     <div class="container">
+        <div class="logo">
+            <img src="imagenes/Logo-1.png" alt="" id="alura">
+        </div>
         <div class="encriptar">
-            <textarea
-                name="texto"
-                    class="texto"
-                        id="texto"
-                            cols="30"
-                                rows="10"
-                                    placeholder="Ingresa el texto aqui">
-            </textarea>
+        <textarea
+        name="texto"
+        class="texto"
+        id="texto"
+        cols="30"
+        rows="10"
+        placeholder="Ingresa el texto aqui"></textarea>
     <div class="terminos">
         <p>
             Solo letras minusculas y sin acentos.
@@ -32,6 +33,8 @@
                     onclick="encriptar()">
                         Encriptar
         </button>
+        <div class="space">
+        </div>
         <button 
             class="btn-desencriptar" 
                 type="button" 
@@ -49,8 +52,6 @@
                 <p id="enunciado">
                     Ingresa el texto que deseas encriptar o desencriptar
                 </p>
-                    <!--<textarea name="mensaje" id="mensaje" cols="30" rows="10" class="mensaje">
-                    </textarea> -->
         </div>
     </div>
 </div>
